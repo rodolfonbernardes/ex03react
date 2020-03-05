@@ -12,7 +12,7 @@ export const Movie = (props) => {
 
     useEffect(() => {
       requestMovies();
-    }, [111]);
+    }, []);
   
     return (
       <ul>
