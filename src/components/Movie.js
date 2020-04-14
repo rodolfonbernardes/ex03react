@@ -17,6 +17,7 @@ export const Movie = (props) => {
     return (
       <ul>
           <li>{movie.data.title}</li>          
+          <li>{movie.data.overview}</li>          
       </ul>
     );
 };
